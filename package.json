@@ -1,0 +1,29 @@
+{
+  "name": "auth-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/better-sqlite3": "^7.6.11",
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.1.2",
+    "nanoid": "^5.0.7",
+    "next": "^15.0.0-rc.0",
+    "react": "^19.0.0-rc-d025ddd3-20240722",
+    "react-dom": "^19.0.0-rc-d025ddd3-20240722"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
